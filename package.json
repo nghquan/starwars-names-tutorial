@@ -1,0 +1,27 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get along with open source",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghquan/starwars-names-tutorial.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "author": "Quan Nguyen <nghquan.khtn@gmail.com> (https://github.com/nghquan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nghquan/starwars-names-tutorial/issues"
+  },
+  "homepage": "https://github.com/nghquan/starwars-names-tutorial#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
