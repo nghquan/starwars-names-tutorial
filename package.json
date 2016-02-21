@@ -4,7 +4,7 @@
   "description": "Get along with open source",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js --reporter mochawesome"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,14 @@
   },
   "homepage": "https://github.com/nghquan/starwars-names-tutorial#readme",
   "dependencies": {
+    "archiver": "0.21.0",
+    "fs": "0.0.2",
+    "nodemailer": "2.2.1",
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.4.5",
+    "mochawesome": "1.3.1"
   }
 }
