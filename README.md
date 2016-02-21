@@ -27,7 +27,7 @@ git status
 2. Put ignore files to:
 .gitignore
 3. add/agree all your changes:
-git add --A
+git add -A
 4. commit your changes:
 git commit -m '<message>'
 5. send your changes to server:
@@ -58,3 +58,15 @@ Extend mailOptions object
 Using fs and archiver libraries
 - To zip directory:
 http://stackoverflow.com/questions/15641243/need-to-zip-an-entire-directory-using-node-js
+
+grunt: task runner
+- using with mocha: use grunt-mocha-test library
+ install mocha
+npm install mocha --save-dev
+ install grunt mocha test
+npm install grunt-mocha-test --save-dev
+- using compress library to produce report.zip
+ install grunt compress
+npm install grunt-contrib-compress --save-dev
+- create a self-defined task for sending email http://gruntjs.com/creating-tasks
+  The nodemailer sending email in asynchronous mode so we have to use an asynchronous method
