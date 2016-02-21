@@ -6,7 +6,7 @@ module.exports = function(grunt) {
           reporter: 'mochawesome',
           clearRequireCache: true
         },
-        src: ['src/index.test.js']
+        src: ['test-suites/*.test.js']
       },
     },
     compress: {
