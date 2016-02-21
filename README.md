@@ -22,5 +22,5 @@ Chai(http://chaijs.com) is an assertion library for node and browser that can be
 
 The grunt-contrib-compress plugin(https://github.com/gruntjs/grunt-contrib-compress) is a Grunt plugin that does compress files and folders. It is using node libraries archiver (for zip/tar) and zlib (for gzip).
 
-And the nodemailer library (https://nodemailer.com) is a npm library that does send emails with Node.JS. I got an interesting issue while I were playing around the library with a grunt. The library sends emails asynchronously so you have to setup an asynchronous grunt task to executing the send email method.
+And the nodemailer library (https://nodemailer.com) is a npm library that does send emails with Node.JS. I got an interesting issue while I were playing around the library with grunt. The library sends emails asynchronously so you have to setup an asynchronous grunt task to executing the send email method.
 
