@@ -2,7 +2,7 @@ The solution is designed around GRUNT, a Javascript task runner. You can find mo
 
 The solution has 3 steps:
 
-1. Run the test suites. After this step, a mochawesome-reports folder will be created. It contains the test report
+1. Run the test suites. After this step, a mochawesome-reports folder will be created. It contains the test report. The report is saved in a structured folder by 'YYYY//MM/DD/Report_DD_MM_YYYY@hh_mm-ss.html' format. The grunt task mkdir is built to support creating the folder structure.
 
 grunt test
 
