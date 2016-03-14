@@ -70,3 +70,14 @@ npm install grunt-mocha-test --save-dev
 npm install grunt-contrib-compress --save-dev
 - create a self-defined task for sending email http://gruntjs.com/creating-tasks
   The nodemailer sending email in asynchronous mode so we have to use an asynchronous method
+  
+gulp: task runner
+Just like grunt but it is said to be faster and has more enhancements
+
+bower: Keeping track of all the packages and make sure they are up to date.Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Bower doesn’t concatenate or minify code or do anything else - it just installs the right versions of the packages you need and their dependencies.
+- To setup a bower.json just like package.json
+bower init
+- To install dependencies in bower.json
+bower install
+- To install a package
+bower install angular --save
