@@ -4,7 +4,7 @@ var server = require('gulp-express');
 
 gulp.task('server', function () {
     // Start the server at the beginning of the task 
-    server.run(['report_static_server.js']);
+    server.run(['app_server.js']);
  
     // Restart the server when file changes 
     //gulp.watch(['app/**/*.html'], server.notify);
