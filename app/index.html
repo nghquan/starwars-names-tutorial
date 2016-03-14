@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="reportApp">
+<head>
+    <meta charset="utf-8">
+    <title>Report management page</title>
+</head>
+<body>
+    <div class="container">
+        <div ng-controller="mainController">
+            <!-- HEADER AND TODO COUNT -->
+        <div class="jumbotron text-center">
+            <h1>MOCHA REPORT PAGE</h1>
+        </div>
+
+        <!-- TODO LIST -->
+        <div id="todo-list" class="row">
+            <script type="text/ng-template"  id="tree_item_renderer.html">
+                <span ng-show="data.childrenUrl">{{data.name}}<button ng-click="show(data)">Show</button></span>            
+                <a ng-show="data.reportUrl" href="{{data.reportUrl}}">{{data.name}}</a>
+                <ul>
+                    <li ng-repeat="data in data.nodes" ng-include="'tree_item_renderer.html'"></li>
+                </ul>
+            </script>
+
+            <ul>
+                <li ng-repeat="data in tree" ng-include="'tree_item_renderer.html'"></li>
+            </ul>
+        </div>    
+        </div>
+    </div>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="/app/core.js"></script>
+</body>
+</html>

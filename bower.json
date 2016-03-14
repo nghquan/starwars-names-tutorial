@@ -1,0 +1,31 @@
+{
+  "name": "starwars-names",
+  "description": "Get along with open source",
+  "main": "src/index.js",
+  "authors": [
+    "Quan Nguyen <nghquan.khtn@gmail.com> (https://github.com/nghquan)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "random",
+    "star",
+    "wars"
+  ],
+  "homepage": "https://github.com/nghquan/starwars-names-tutorial",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0"
+  }
+}
