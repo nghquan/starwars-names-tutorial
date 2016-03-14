@@ -24,3 +24,7 @@ The grunt-contrib-compress plugin(https://github.com/gruntjs/grunt-contrib-compr
 
 And the nodemailer library (https://nodemailer.com) is a npm library that does send emails with Node.JS. I got an interesting issue while I were playing around the library with grunt. The library sends emails asynchronously so you have to setup an asynchronous grunt task to executing the send email method.
 
+Introduce to the report management page
+The report management page is created to display the reports that have built to mochawesome-reports folder. The page is developed with gulp, express.js and angular js. Gulp is a task runner just like grunt. Express is a web server library that runs as gulp-express task. Angular js is a javascript library that is used in the front end module and is built with bower.
+To run the web page:
+gulp run
